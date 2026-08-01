@@ -220,8 +220,20 @@ blockquote { margin: 0; font-size: clamp(22px, 2.1vw, 31px); line-height: 1.35; 
   .site-footer > div:nth-child(2) a,
   .site-footer > div:nth-child(3) a { min-height: 30px; line-height: 1.45; }
   .site-footer > div:last-child { grid-column: 1 / -1; flex-direction: column; gap: 14px; }
-  .consultation-modal { padding: 55px 24px 30px; }
+  .modal-backdrop { place-items: end center; padding: 0; }
+  .consultation-modal { width: 100%; max-height: min(88dvh, 720px); padding: 24px 20px calc(20px + env(safe-area-inset-bottom)); border-radius: 20px 20px 0 0; overscroll-behavior: contain; }
+  .consultation-modal .modal-close { top: 16px; right: 16px; width: 38px; height: 38px; }
+  .consultation-modal .eyebrow { margin: 0 48px 8px 0; font-size: 9px; }
+  .consultation-modal h2 { max-width: 310px; font-size: 32px; line-height: 1.04; }
+  .consultation-modal > p:not(.eyebrow) { margin: 12px 42px 0 0; font-size: 13px; line-height: 1.5; }
   .consultation-modal form { grid-template-columns: 1fr; }
+  .consultation-modal form { margin-top: 18px; gap: 12px; }
+  .consultation-modal label { gap: 6px; font-size: 11px; }
+  .consultation-modal input,
+  .consultation-modal select,
+  .consultation-modal textarea { min-height: 44px; padding: 10px 12px; font-size: 16px; }
+  .consultation-modal textarea { height: 64px; min-height: 64px; }
+  .consultation-modal form .button { min-height: 50px; margin-top: 2px; }
   .consultation-modal label:nth-child(3), .consultation-modal label:nth-child(4), .consultation-modal form .button { grid-column: auto; }
 }
 

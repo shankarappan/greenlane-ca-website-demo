@@ -5,6 +5,8 @@ dist/
 .env
 .env.*
 implementation-*.png
+audit-*.png
+audit-*.md
 design-qa-comparison*.jpg
 AGENTS.md
 design/
