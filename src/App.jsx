@@ -115,7 +115,7 @@ export function App() {
             <button className="button button-primary" onClick={openConsultation}>Book a free consultation <ArrowRight /></button>
             <a className="hero-phone" href="tel:+6495225182"><Phone weight="regular" />09 522 5182</a>
           </div>
-          <div className="hero-image" style={{ "--hero-image": `url("${assetPath("hero-advisory.png")}")` }} role="img" aria-label="Chartered accountant meeting with a client" />
+          <div className="hero-image" style={{ "--hero-image": `url("${assetPath("hero-daran-nair.png")}")` }} role="img" aria-label="Daran Nair meeting with a client" />
           <div className="trust-row" aria-label="Why clients choose Greenlane CA">
             <div><UsersThree /><p><strong>30+ years</strong><span>supporting Kiwi businesses and families</span></p></div>
             <div><SealCheck /><p><strong>Chartered Accountants</strong><span>trusted, experienced and independent</span></p></div>
