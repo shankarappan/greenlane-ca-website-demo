@@ -76,7 +76,7 @@ export function App() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Greenlane CA home">
-          <img src={assetPath("glca-logo.png")} alt="Greenlane CA Limited" />
+          <img src={assetPath("glca-logo-transparent.png")} alt="Greenlane CA Limited" />
         </a>
         <nav className="desktop-nav" aria-label="Primary navigation">
           <a href="#about">About</a>
@@ -95,7 +95,7 @@ export function App() {
       {menuOpen && (
         <div className="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
           <button className="menu-close" onClick={() => setMenuOpen(false)} aria-label="Close menu"><X /></button>
-          <img src={assetPath("glca-logo.png")} alt="Greenlane CA Limited" />
+          <img src={assetPath("glca-logo-transparent.png")} alt="Greenlane CA Limited" />
           <nav>
             {[['About','#about'],['Services','#services'],['Resources','#resources'],['Blog','#insights'],['Contact','#contact']].map(([label, href]) => (
               <a key={label} href={href} onClick={() => setMenuOpen(false)}>{label}<ArrowRight /></a>
@@ -191,8 +191,7 @@ export function App() {
 
       <footer className="site-footer">
         <div className="footer-brand">
-          <img src={assetPath("glca-logo.png")} alt="Greenlane CA Limited" />
-          <p>Chartered Accountants, Business & Tax Advisers</p>
+          <img src={assetPath("glca-logo-transparent.png")} alt="Greenlane CA Limited — Chartered Accountants, Business & Tax Advisers" />
         </div>
         <div><strong>Services</strong><a href="#services">Business Services</a><a href="#services">Tax Services</a><a href="#services">Trust & Estate Services</a></div>
         <div><strong>Company</strong><a href="#about">About</a><a href="#resources">Resources</a><a href="#insights">Blog</a></div>
