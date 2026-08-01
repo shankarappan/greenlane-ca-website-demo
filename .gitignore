@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.*
+implementation-*.png
+design-qa-comparison*.jpg
+AGENTS.md
+design/
+design-qa.md
