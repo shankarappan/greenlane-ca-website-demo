@@ -29,8 +29,8 @@ a { color: inherit; text-decoration: none; }
 button { cursor: pointer; }
 
 .site-shell { overflow: hidden; }
-.site-header { height: 112px; padding: 18px clamp(28px, 5vw, 82px); display: grid; grid-template-columns: 240px 1fr 260px; align-items: center; gap: 28px; background: #fff; position: relative; z-index: 20; }
-.brand img { display: block; width: 190px; height: 70px; object-fit: contain; }
+.site-header { height: 118px; padding: 18px clamp(28px, 5vw, 82px); display: grid; grid-template-columns: 240px 1fr 260px; align-items: center; gap: 28px; background: #fff; position: relative; z-index: 20; }
+.brand img { display: block; width: 230px; height: 88px; object-fit: contain; }
 .desktop-nav { display: flex; justify-content: center; gap: clamp(24px, 3vw, 47px); font-size: 14px; }
 .desktop-nav a { position: relative; padding-block: 10px; }
 .desktop-nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 4px; height: 1px; background: var(--green); transition: right .2s ease; }
@@ -152,10 +152,10 @@ blockquote { margin: 0; font-size: clamp(22px, 2.1vw, 31px); line-height: 1.35; 
 .success-state p:not(.eyebrow) { margin: 20px auto 28px; max-width: 440px; color: var(--muted); line-height: 1.7; }
 
 @media (max-width: 980px) {
-  .site-header { height: 92px; grid-template-columns: 1fr auto; padding-inline: 28px; }
+  .site-header { height: 100px; grid-template-columns: 1fr auto; padding-inline: 28px; }
   .desktop-nav, .header-action { display: none; }
   .menu-toggle { display: block; }
-  .brand img { width: 165px; height: 60px; }
+  .brand img { width: 220px; height: 82px; }
   .hero { grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; }
   .hero-copy { padding: 65px 36px; }
   h1 { font-size: clamp(56px, 7.5vw, 72px); line-height: .98; }
@@ -174,8 +174,8 @@ blockquote { margin: 0; font-size: clamp(22px, 2.1vw, 31px); line-height: 1.35; 
 }
 
 @media (max-width: 720px) {
-  .site-header { height: 80px; padding-inline: 18px; }
-  .brand img { width: 150px; height: 52px; }
+  .site-header { height: 88px; padding-inline: 18px; }
+  .brand img { width: 195px; height: 72px; }
   .hero { display: flex; flex-direction: column; }
   .hero-copy { order: 2; padding: 48px 22px 52px; }
   .hero-image { order: 1; min-height: 360px; background-position: 64% center; }
